@@ -22,3 +22,32 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.js-image-item {
+  width: calc((100% - 20px) / 2);
+}
+
+.js-image-item:first-child {
+  order: 2;
+}
+
+.js-image {
+  display: block;
+  width: 100%;
+}
+
+.button-margin {
+  margin: 15px;
+}
+
+.span-color {
+  color: #ff0000;
+  font-weight: 700;
+}
